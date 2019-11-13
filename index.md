@@ -11,7 +11,7 @@
 
 # The Neural Drum Machine
 
-This repository describes the additional material and experiments around the paper ["Neural Drum Machine"](paper.pdf) submitted at the 2019 International Conference on Computational Creativity.
+This repository describes the additional material and experiments around the paper "[Neural Drum Machine](paper.pdf)" submitted at the 2019 International Conference on Computational Creativity. Follow [this link](https://arxiv.org/abs/1907.02637) to the arXiv page.
 
 In this work, we introduce an audio synthesis architecture for real-time generation of drum sounds. The generative model is based on a conditional convolutional Wasserstein autoencoder (WAE) that learns to generate Mel-scaled magnitude spectrograms of short percussion samples. A Multi-Head Convolutional Neural Network implicitly performs phase reconstruction (MCNN) by estimating the audio signal directly from the magnitude spectrogram. The system is trained on a dataset of drum sounds containing 11 categories. In the end, it is capable of synthesizing sounds in real-time on a CPU. Furthermore, we describe a Max/MSP-based interface designed to interact with the model. With this setup, the system can be easily integrated into a studio-production environment. Moreover, the interface provides simple control over the sound generation process, which allows the user to quickly explore the space of possible drum timbres.
 
