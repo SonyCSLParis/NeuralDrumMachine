@@ -1,0 +1,22 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+section {
+    width: 660px;
+    padding-bottom: 50px;
+}
+
+.wrapper{width:1000px}
+
+audio{
+    width:220px
+}
+table {
+  table-layout: fixed ;
+  width: 100% ;
+}
+td {
+  width: 33% ;
+}
