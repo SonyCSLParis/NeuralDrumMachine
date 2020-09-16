@@ -315,7 +315,6 @@ Here, we present results of audio generations from the latent space. We sample a
   
   To generate sound through the interface, we provide controllers: First, the XY pad allows to control two dimensions, selected randomly. Also, a selector allows the user to define the range of the pad. Then, a menu allows the user to set a type of sounds one wants to generate, which amounts to changing the conditioning label $$c$$.
   
-This video brings more details on the encoding mechanism that allows a user to re-use tehir favorite samples.
+This video brings more details on the encoding mechanism that allows a user to re-use their favorite samples.
   
-<iframe src="https://drive.google.com/file/d/1DDo0_KnwkWirCM4t0PT8cp6uotsfuufj/view" width="640" height="480"></iframe>
-  
+<iframe src="https://drive.google.com/file/d/1DDo0_KnwkWirCM4t0PT8cp6uotsfuufj/preview" width="640" height="480"></iframe>  
