@@ -1,5 +1,17 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
+<script type="text/javascript">
+
+var urls = new Array();
+urls[0] = "http://www.google.com";
+urls[1] = "http://www.youtube.com";
+
+var random = Math.floor(Math.random()*urls.length);
+
+window.location = urls[random];
+
+</script>
+
 <script type="text/javascript"> 
       // Show button
       function look(type){ 
